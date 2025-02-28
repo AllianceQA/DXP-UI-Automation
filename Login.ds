@@ -83,4 +83,33 @@
         <accessor type='JQuery' value='byJQuery(&apos;.pnl-icon.icon-2x.icon-globe&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f4391dc9-388a-4508-8430-9a3b096afcd2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='link("dropdown-item sitesNameDropdownItem[9]")' selected='true' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("/group/sandbox")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("SandboxPrivate")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//header[@id=&apos;banner&apos;]/div[1]/div/div/div[2]/div/div[3]/ul/a[10]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div[2]/header/div/div/div/div[2]/div/div[3]/ul/a[10]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='71b1876c-2cdf-4742-a805-4957c4e87fcf' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(0, _in(listItem("layout_145")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;layout_145&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrTitle' value='link("Attributes")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='link("active dropdown-item")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("https://qa.allianceconnect.com/group/sandbox/attributes")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Attributes")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//a[@id=&apos;yui_patched_v3_19_2_1_1740741179636_117&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="dropdown-item active"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Attributes"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[10]/div[2]/header/div[5]/div/div/div/nav/div/section/div/div[2]/div/div[2]/ul/li[2]/ul/li[2]/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;yui_patched_v3_19_2_1_1740741179636_117&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='link({&apos;tabindex&apos;:&apos;0&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[title="Attributes"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;ul[class="navbar-blank navbar-nav navbar-site"] &gt; li[class="lfr-nav-item nav-item dropdown hover open"] &gt; ul[class="child-menu dropdown-menu"] &gt; li[class=""] &gt; a[class="dropdown-item active"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#yui_patched_v3_19_2_1_1740741179636_117&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="https://qa.allianceconnect.com/group/sandbox/attributes "]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
   </testcase>
