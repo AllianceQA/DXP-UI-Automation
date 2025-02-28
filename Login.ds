@@ -92,6 +92,14 @@
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div[2]/header/div/div/div/div[2]/div/div[3]/ul/a[10]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='mouseOver' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8db89b68-e354-413e-a87c-cc20ee45fba4' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='unknown' value='byXPath(&apos;//li[@id=&apos;layout_143&apos;]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath("//li[@id=&apos;layout_143&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='byXPath(//a[@id=&apos;yui_patched_v3_19_2_1_1740742087422_115&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='71b1876c-2cdf-4742-a805-4957c4e87fcf' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(listItem("layout_145")))' selected='true' fallback='true'></accessor>
