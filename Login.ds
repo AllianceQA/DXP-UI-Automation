@@ -6,4 +6,75 @@
     <step action='navigateTo' value='"https://qa.allianceconnect.com/web/sandbox"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fefb3cb1-cf6b-41ea-bcbc-c9a86f24c8be' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
+    <step action='navigateTo' value='"https://qa.allianceconnect.com/web/sandbox"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4ef0d82d-bcab-49f2-984b-9373622c9e0c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5c24949f-b0cc-4b4f-88f6-dad5da484ad3' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="sign-in"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='link("login-btn")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='link("sign-in")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("https://qa.allianceconnect.com/c/portal/login?p_l_id=104468961")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("Sign In")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//a[@id=&apos;sign-in&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="login-btn"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Sign In"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/header/div/div/div/div[2]/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;banner&apos;)/div[@class=&apos;header__title-wrapper&apos;]/div[@class=&apos;container&apos;]/div[@class=&apos;row&apos;]/div[@class=&apos;header__user-login&apos;]/a[@id=&apos;sign-in&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='link({&apos;rel&apos;:&apos;nofollow&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="header__title-wrapper"] &gt; div[class="container"] &gt; div[class="row"] &gt; div[class="header__user-login"] &gt; a[class="login-btn"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#sign-in&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="https://qa.allianceconnect.com/c/portal/login?p_l_id=104468961"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"aa000adminhq"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='03bddca6-257c-4c63-9883-3f3722deaf97' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="cognito_custom_login_screenName"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("inputField-customizable")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="cognito_custom_login_screenName"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("cognito_custom_login_screenName")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='textbox("cognito_custom_login_screenName")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;cognito_custom_login_screenName&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="inputField-customizable"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/section/div/div/div/div/section/div/div[2]/div/div/form/div[2]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;cognito_custom_login_screenName&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="input-text-wrapper"] &gt; input[class="inputField-customizable"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#cognito_custom_login_screenName&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="cognito_custom_login_screenName"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value=""]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='aa000adminhq' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='54cf5192-e192-42e1-8ca8-c10dd6f2aed0' uiType='base' isHidden='true'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="cognito_custom_login_password"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='password("inputField-customizable")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathName' value='byXPath(&apos;//*[@name="cognito_custom_login_password"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='password("cognito_custom_login_password")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrName' value='password("cognito_custom_login_password")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;cognito_custom_login_password&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/section/div/div/div/div/section/div/div[2]/div/div/form/div[3]/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;cognito_custom_login_password&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='password({&apos;type&apos;:&apos;password&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#cognito_custom_login_password&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[name="cognito_custom_login_password"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5a2f8f53-eb0d-4fe3-a2f9-cd4240898672' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="cognito_custom_login_submit"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='submit("submitButton-customizable w-100")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='submit("cognito_custom_login_submit")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='submit("Sign In")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//button[@id=&apos;cognito_custom_login_submit&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="submitButton-customizable w-100"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/section/div/div/div/div/section/div/div[2]/div/div/form/div[4]/button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;cognito_custom_login_submit&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;type&apos;:&apos;submit&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="signin"] &gt; button[class="submitButton-customizable w-100"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#cognito_custom_login_submit&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
   </testcase>
