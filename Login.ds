@@ -120,4 +120,80 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="https://qa.allianceconnect.com/group/sandbox/attributes "]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='navigateTo' value='"https://qa.allianceconnect.com/group/sandbox/attributes"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3545fd27-a746-44aa-a073-cc65115fa4b8' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='' value='' selected='true' fallback='false'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3f009ac0-b2a1-440f-8caa-c49931dea006' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='italic(0, _in(span({&apos;title&apos;:&apos;Clear&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='italic("icon-remove")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;js-portlet-_aapaorganizations_INSTANCE_vk2hoZ2TfZ5c_&apos;]/div/lib-organization-navigation/div/div/div/div[1]/span[1]/i")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="icon-remove"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[2]/section/div/div[2]/div/div/div/lib-organization-navigation/div/div/div/div/span/i&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;js-portlet-_aapaorganizations_INSTANCE_vk2hoZ2TfZ5c_&apos;)/div[@class=&apos;clearfix&apos;]/lib-organization-navigation[1]/div[@class=&apos;col-md-12 p-0&apos;]/div[@class=&apos;topbar clearfix&apos;]/div[@class=&apos;topbar-left float-left&apos;]/div[@class=&apos;input-group d-inline-block position-relative&apos;]/span[@class=&apos;aapa-orgs-search-close-icon&apos;]/i[@class=&apos;icon-remove&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="topbar clearfix"] &gt; div[class="topbar-left float-left"] &gt; div[class="input-group d-inline-block position-relative"] &gt; span[class="aapa-orgs-search-close-icon"] &gt; i[class="icon-remove"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.topbar.clearfix &gt; .topbar-left.float-left &gt; .input-group.d-inline-block.position-relative &gt; .aapa-orgs-search-close-icon &gt; .icon-remove&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='a8188fe4-91f6-48ae-b204-44388e1912d8' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;js-portlet-_aapaorganizations_INSTANCE_vk2hoZ2TfZ5c_&apos;]/div/lib-organization-navigation/div/div/div/div[1]/div").xy(0.72, 0.63 )' selected='true' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[2]/section/div/div[2]/div/div/div/lib-organization-navigation/div/div/div/div/div&apos;).xy(0.72, 0.63 )' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;js-portlet-_aapaorganizations_INSTANCE_vk2hoZ2TfZ5c_&apos;)/div[@class=&apos;clearfix&apos;]/lib-organization-navigation[1]/div[@class=&apos;col-md-12 p-0&apos;]/div[@class=&apos;topbar clearfix&apos;]/div[@class=&apos;topbar-left float-left&apos;]/div[@class=&apos;input-group d-inline-block position-relative&apos;]/div[1]").xy(0.72, 0.63 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"aa700 qc"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ecd305c6-c01a-4eae-9788-328a9ed466ce' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="filterOrg"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("aapa-dxp-input border-0 form-control ng-dirty ng-untouched ng-valid orgNavigationSearchInput")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("filterOrg")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;filterOrg&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input border-0 orgNavigationSearchInput ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[2]/section/div/div[2]/div/div/div/lib-organization-navigation/div/div/div/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;filterOrg&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="form-control aapa-dxp-input border-0 orgNavigationSearchInput ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#filterOrg&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e7257fdb-b527-4df1-86b2-1b6e519cd9ed' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(3, _in(div({&apos;aria-label&apos;:&apos;&lt;b&gt;aa700 QC&lt;/b&gt; Pb Store&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrTitle' value='span("aa700 QC Pb Store (0)")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='span("org-label text-truncate[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("aa700 QC Pb Store (0)")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;js-portlet-_aapaorganizations_INSTANCE_vk2hoZ2TfZ5c_&apos;]/div/lib-organization-navigation/div/div/div/div[2]/p-tree/div/div/ul/p-treenode/li/ul/p-treenode[1]/li/div/span/span/div/span[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[2]/section/div/div[2]/div/div/div/lib-organization-navigation/div/div/div/div[2]/p-tree/div/div/ul/p-treenode/li/ul/p-treenode/li/div/span/span/div/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;js-portlet-_aapaorganizations_INSTANCE_vk2hoZ2TfZ5c_&apos;)/div[@class=&apos;clearfix&apos;]/lib-organization-navigation[1]/div[@class=&apos;col-md-12 p-0&apos;]/div[@class=&apos;topbar clearfix&apos;]/div[@class=&apos;topbar-left float-left&apos;]/div[@class=&apos;organizationTree&apos;]/p-tree[@class=&apos;p-element orgTree&apos;]/div[@class=&apos;ng-star-inserted p-tree p-component p-tree-selectable&apos;]/div[@class=&apos;p-tree-wrapper ng-star-inserted&apos;]/ul[@class=&apos;p-tree-container ng-star-inserted&apos;]/p-treenode[@class=&apos;p-element ng-star-inserted&apos;]/li[@class=&apos;p-treenode ng-star-inserted&apos;]/ul[@class=&apos;p-treenode-children ng-star-inserted&apos;]/p-treenode[@class=&apos;p-element ng-star-inserted&apos;]/li[@class=&apos;p-treenode p-treenode-leaf ng-star-inserted&apos;]/div[@class=&apos;p-treenode-content p-treenode-selectable&apos;]/span[@class=&apos;p-treenode-label&apos;]/span[@class=&apos;ng-star-inserted&apos;]/div[@class=&apos;treeLeaf organizationNavigationLabel ng-star-inserted&apos;]/span[@class=&apos;org-label text-truncate&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;span[title="aa700 QC Pb Store (0)"]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='1e4e8ae4-adfe-45fe-86b6-ae21a1f21a37' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='span("custom-control-label ml-2")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-2&apos;]/org-features/div[1]/table/tbody/tr[1]/td[2]/div/label/div/span[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="custom-control-label ml-2"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/div/myplace/p-tabview/div/div[2]/p-tabpanel/div/div/org-attributes/p-tabview/div/div[2]/p-tabpanel/div/org-features/div/table/tbody/tr/td[2]/div/label/div/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-2&apos;)/org-features[1]/div[@class=&apos;table-responsive-sm border border-dark&apos;]/table[@class=&apos;table table-borderless&apos;]/tbody[1]/tr[1]/td[@class=&apos;myplacesetup-class-3&apos;]/div[@class=&apos;ng-star-inserted&apos;]/label[@class=&apos;col-form-label&apos;]/div[@class=&apos;custom-control custom-checkbox float-left align-items-center&apos;]/span[@class=&apos;custom-control-label ml-2&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='TableXPath' value='byXPath(&apos;//tbody//tr[1]//td[2]//div//label//div//span[@class="custom-control-label ml-2"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;td[class="myplacesetup-class-3"] &gt; div[class="ng-star-inserted"] &gt; label[class="col-form-label"] &gt; div[class="custom-control custom-checkbox float-left align-items-center"] &gt; span[class="custom-control-label ml-2"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.myplacesetup-class-3 &gt; .ng-star-inserted &gt; .col-form-label &gt; .custom-control.custom-checkbox.float-left.align-items-center &gt; .custom-control-label.ml-2&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='873ae14b-2711-4673-81f6-4d1df4e93662' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="orgSaveFeatures"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='button("aapa-dxp-button btn btn-primary mr-1 p-button p-component p-element")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='button("orgSaveFeatures")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='button("Save")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//button[@id=&apos;orgSaveFeatures&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="p-element btn btn-primary aapa-dxp-button mr-1 p-button p-component"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/div/myplace/p-tabview/div/div[2]/p-tabpanel/div/div/org-attributes/p-tabview/div/div[2]/p-tabpanel/div/org-features/div[4]/button[2]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;orgSaveFeatures&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;button[class="p-element btn btn-primary aapa-dxp-button mr-1 p-button p-component"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#orgSaveFeatures&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
   </testcase>
