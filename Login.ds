@@ -6,11 +6,6 @@
     <step action='navigateTo' value='"https://qa.allianceconnect.com/web/sandbox"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fefb3cb1-cf6b-41ea-bcbc-c9a86f24c8be' uiType='base'>
       <dialect type='sahi'></dialect>
     </step>
-    <step action='navigateTo' value='"https://qa.allianceconnect.com/web/sandbox"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4ef0d82d-bcab-49f2-984b-9373622c9e0c' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
-    </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='5c24949f-b0cc-4b4f-88f6-dad5da484ad3' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="sign-in"]&apos;)' selected='true' fallback='true'></accessor>
