@@ -100,4 +100,317 @@
         <accessor type='unknown' value='' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c904e5c6-0152-40de-ba3b-ac1ceafc0140' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='link(0, _in(listItem("layout_144")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='link(0, _in(listItem({&apos;id&apos;:&apos;layout_144&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrTitle' value='link("MyPlaceSetUp")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='link("active dropdown-item")' selected='false' fallback='true'></accessor>
+        <accessor type='AttrHref' value='link("https://qa.allianceconnect.com/group/sandbox/mpsetup")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='link("MyPlaceSetUp")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//a[@id=&apos;yui_patched_v3_19_2_1_1741863357928_112&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="dropdown-item active"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="MyPlaceSetUp"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[10]/div[2]/header/div[5]/div/div/div/nav/div/section/div/div[2]/div/div[2]/ul/li[2]/ul/li/a&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;yui_patched_v3_19_2_1_1741863357928_112&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='link({&apos;tabindex&apos;:&apos;0&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[title="MyPlaceSetUp"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;ul[class="navbar-blank navbar-nav navbar-site"] &gt; li[class="lfr-nav-item nav-item dropdown hover open"] &gt; ul[class="child-menu dropdown-menu"] &gt; li[class=""] &gt; a[class="dropdown-item active"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#yui_patched_v3_19_2_1_1741863357928_112&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;a[href="https://qa.allianceconnect.com/group/sandbox/mpsetup "]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='98fd8861-e509-491b-a49a-db986da9b7d1' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='italic(0, _in(span({&apos;title&apos;:&apos;Clear&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='italic("icon-remove")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;js-portlet-_aapaorganizations_INSTANCE_SylSDFXUxs3h_&apos;]/div/lib-organization-navigation/div/div/div/div[1]/span[1]/i")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="icon-remove"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[2]/section/div/div[2]/div/div/div/lib-organization-navigation/div/div/div/div/span/i&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;js-portlet-_aapaorganizations_INSTANCE_SylSDFXUxs3h_&apos;)/div[@class=&apos;clearfix&apos;]/lib-organization-navigation[1]/div[@class=&apos;col-md-12 p-0&apos;]/div[@class=&apos;topbar clearfix&apos;]/div[@class=&apos;topbar-left float-left&apos;]/div[@class=&apos;input-group d-inline-block position-relative&apos;]/span[@class=&apos;aapa-orgs-search-close-icon&apos;]/i[@class=&apos;icon-remove&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="topbar clearfix"] &gt; div[class="topbar-left float-left"] &gt; div[class="input-group d-inline-block position-relative"] &gt; span[class="aapa-orgs-search-close-icon"] &gt; i[class="icon-remove"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.topbar.clearfix &gt; .topbar-left.float-left &gt; .input-group.d-inline-block.position-relative &gt; .aapa-orgs-search-close-icon &gt; .icon-remove&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"aa700 qc pb store"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='3a461cfe-4b19-4200-b91d-1b6d52d7b906' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='XPathId' value='byXPath(&apos;//*[@id="filterOrg"]&apos;)' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='textbox("aapa-dxp-input border-0 form-control ng-dirty ng-untouched ng-valid orgNavigationSearchInput")' selected='false' fallback='true'></accessor>
+        <accessor type='Id' value='textbox("filterOrg")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//input[@id=&apos;filterOrg&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input border-0 orgNavigationSearchInput ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[2]/section/div/div[2]/div/div/div/lib-organization-navigation/div/div/div/div/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;filterOrg&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;type&apos;:&apos;text&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[class="form-control aapa-dxp-input border-0 orgNavigationSearchInput ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#filterOrg&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='1c976807-3260-47c0-ac4a-2361ca559fe2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(1, _in(div({&apos;aria-label&apos;:&apos;&lt;b&gt;aa700 QC Pb Store&lt;/b&gt;&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='span("p-treenode-label[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("aa700 QC Pb Store (0)SDI")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;js-portlet-_aapaorganizations_INSTANCE_SylSDFXUxs3h_&apos;]/div/lib-organization-navigation/div/div/div/div[2]/p-tree/div/div/ul/p-treenode/li/ul/p-treenode/li/div/span")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[2]/section/div/div[2]/div/div/div/lib-organization-navigation/div/div/div/div[2]/p-tree/div/div/ul/p-treenode/li/ul/p-treenode/li/div/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;js-portlet-_aapaorganizations_INSTANCE_SylSDFXUxs3h_&apos;)/div[@class=&apos;clearfix&apos;]/lib-organization-navigation[1]/div[@class=&apos;col-md-12 p-0&apos;]/div[@class=&apos;topbar clearfix&apos;]/div[@class=&apos;topbar-left float-left&apos;]/div[@class=&apos;organizationTree&apos;]/p-tree[@class=&apos;p-element orgTree&apos;]/div[@class=&apos;ng-star-inserted p-tree p-component p-tree-selectable&apos;]/div[@class=&apos;p-tree-wrapper ng-star-inserted&apos;]/ul[@class=&apos;p-tree-container ng-star-inserted&apos;]/p-treenode[@class=&apos;p-element ng-star-inserted&apos;]/li[@class=&apos;p-treenode ng-star-inserted&apos;]/ul[@class=&apos;p-treenode-children ng-star-inserted&apos;]/p-treenode[@class=&apos;p-element ng-star-inserted&apos;]/li[@class=&apos;p-treenode p-treenode-leaf ng-star-inserted&apos;]/div[@class=&apos;p-treenode-content p-treenode-selectable&apos;]/span[@class=&apos;p-treenode-label&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;ul[class="p-treenode-children ng-star-inserted"] &gt; p-treenode[class="p-element ng-star-inserted"] &gt; li[class="p-treenode p-treenode-leaf ng-star-inserted"] &gt; div[class="p-treenode-content p-treenode-selectable"] &gt; span[class="p-treenode-label"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.p-treenode-children.ng-star-inserted &gt; .p-element.ng-star-inserted &gt; .p-treenode.p-treenode-leaf.ng-star-inserted &gt; .p-treenode-content.p-treenode-selectable &gt; .p-treenode-label&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f29acec1-2deb-43ff-8083-78fbdd4f8ebf' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='span(0, _in(link("p-tabpanel-1-label")))' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='span(0, _in(link({&apos;id&apos;:&apos;p-tabpanel-1-label&apos;})))' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='span("ng-star-inserted p-tabview-title[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='Text' value='span("Primary")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//a[@id=&apos;p-tabpanel-1-label&apos;]/span")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Primary"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div/div/ul/li[2]/a/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-1-label&apos;)/span[@class=&apos;p-tabview-title ng-star-inserted&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="p-tabview-nav-content"] &gt; ul[class="p-tabview-nav"] &gt; li[class="urlsTabHeader ng-star-inserted"] &gt; a[class="p-element p-ripple p-tabview-nav-link"] &gt; span[class="p-tabview-title ng-star-inserted"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;#p-tabpanel-1-label &gt; .p-tabview-title.ng-star-inserted&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='974bda8a-7d95-4f44-aaeb-0d0f37a48cc3' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='div(0, _in(div("pr_id_1"))).xy(0.99, 0.30 )' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='div(0, _in(div({&apos;id&apos;:&apos;pr_id_1&apos;}))).xy(0.99, 0.30 )' selected='false' fallback='true'></accessor>
+        <accessor type='AttrClass' value='div("p-datatable-wrapper").xy(0.99, 0.30 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div/p-table/div/div&apos;).xy(0.99, 0.30 )' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-1&apos;)/app-primary-tab[1]/app-primary-detail-table[1]/lib-ptablewithcustomactions[1]/div[@class=&apos;table-responsive&apos;]/p-table[@class=&apos;p-element aapa-dxp-table&apos;]/div[@id=&apos;pr_id_1&apos;]/div[@class=&apos;p-datatable-wrapper&apos;]").xy(0.99, 0.30 )' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="table-responsive"] &gt; p-table[class="p-element aapa-dxp-table"] &gt; div[class="p-datatable p-component"] &gt; div[class="p-datatable-wrapper"]&apos;).xy(0.99, 0.30 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='74695e91-a6d3-430a-b9ac-c88c063016ef' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='cell("aapa-dxp-table-body-data ng-star-inserted[49]")' selected='true' fallback='true'></accessor>
+        <accessor type='Text' value='cell("Loc7")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div/p-table/div/div/table/tbody/tr[7]/td[2]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d095a320-0869-447f-b495-d5f8fb670010' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='italic(0, _in(button({&apos;title&apos;:&apos;Add New Above&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='italic("mdi mdi-arrow-up[1]")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-1&apos;]/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[3]/i")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[3]/i&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setSelected' value='"DST"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='e85762cb-1a2d-4c44-aba7-402c9bc88730' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='select("aapa-dxp-input form-control ng-dirty ng-untouched ng-valid")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[1]/div[1]/div/select")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input ng-untouched ng-dirty ng-valid"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div/div/div/select&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-untouched ng-dirty ng-valid&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-4 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]/select[@class=&apos;form-control aapa-dxp-input ng-untouched ng-dirty ng-valid&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='select({&apos;formcontrolname&apos;:&apos;type&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-4 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"] &gt; select[class="form-control aapa-dxp-input ng-untouched ng-dirty ng-valid"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.row.no-gutters.static-primary-details &gt; .col-md-4.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8 &gt; .form-control.aapa-dxp-input.ng-untouched.ng-dirty.ng-valid&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='1d70f359-3491-4f34-af59-1a4f45dd8ea1' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='div("col-sm-8[1]").xy(0.41, 0.54 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[1]/div[2]/div").xy(0.41, 0.54 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div/div[2]/div&apos;).xy(0.41, 0.54 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"Loc 8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f79a1a6b-567e-4b0c-a915-93b535ac7bc3' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='textarea("aapa-dxp-input form-control ng-dirty ng-untouched ng-valid textarea-input")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[1]/div[2]/div/textarea")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div/div[2]/div/textarea&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-4 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]/textarea[@class=&apos;form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-dirty&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textarea({&apos;rows&apos;:&apos;1&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-4 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"] &gt; textarea[class="form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.row.no-gutters.static-primary-details &gt; .col-md-4.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8 &gt; .form-control.aapa-dxp-input.textarea-input.ng-untouched.ng-valid.ng-dirty&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='77bcfecc-83df-48d3-abc2-78b660b276a1' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='div("col-sm-8[2]").xy(0.47, 0.57 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[1]/div[3]/div").xy(0.47, 0.57 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div/div[3]/div&apos;).xy(0.47, 0.57 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"Store8"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='48909da0-cdcf-412f-aa03-7f0a5de8986c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='textbox("aapa-dxp-input form-control ng-dirty ng-untouched ng-valid")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[1]/div[3]/div/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div/div[3]/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-4 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]/input[@class=&apos;form-control aapa-dxp-input ng-untouched ng-valid ng-dirty&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;formcontrolname&apos;:&apos;called&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-4 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"] &gt; input[class="form-control aapa-dxp-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.row.no-gutters.static-primary-details &gt; .col-md-4.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8 &gt; .form-control.aapa-dxp-input.ng-untouched.ng-valid.ng-dirty&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8027af31-47d1-4741-be25-5d3ccfccd2a2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='div("col-sm-8[3]").xy(0.17, 0.62 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[1]/div").xy(0.17, 0.62 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div/div&apos;).xy(0.17, 0.62 )' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-3 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]").xy(0.17, 0.62 )' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;form[class="ng-dirty ng-valid ng-touched"] &gt; div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-3 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"]&apos;).xy(0.17, 0.62 )' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.ng-dirty.ng-valid.ng-touched &gt; .row.no-gutters.static-primary-details &gt; .col-md-3.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8&apos;).xy(0.17, 0.62 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"1234"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='bf24d090-1d11-4c49-aa0c-29e2b2a959a2' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='textarea("aapa-dxp-input form-control ng-dirty ng-star-inserted ng-untouched ng-valid textarea-input")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[1]/div/textarea")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-star-inserted ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div/div/textarea&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-3 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]/textarea[@class=&apos;form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-star-inserted ng-dirty&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textarea({&apos;formcontrolname&apos;:&apos;seller&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-3 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"] &gt; textarea[class="form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-star-inserted ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.row.no-gutters.static-primary-details &gt; .col-md-3.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8 &gt; .form-control.aapa-dxp-input.textarea-input.ng-untouched.ng-valid.ng-star-inserted.ng-dirty&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='4992a541-6cf9-4e54-8622-81e82831e160' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='div("col-sm-8[4]").xy(0.10, 0.22 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[2]/div").xy(0.10, 0.22 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div[2]/div&apos;).xy(0.10, 0.22 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"1234"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c7f69504-be6e-42c9-8c26-a3cfb6af92bc' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='textarea("aapa-dxp-input form-control ng-dirty ng-untouched ng-valid textarea-input")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[2]/div/textarea")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div[2]/div/textarea&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-3 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]/textarea[@class=&apos;form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-dirty&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textarea({&apos;formcontrolname&apos;:&apos;buyer&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-3 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"] &gt; textarea[class="form-control aapa-dxp-input textarea-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.row.no-gutters.static-primary-details &gt; .col-md-3.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8 &gt; .form-control.aapa-dxp-input.textarea-input.ng-untouched.ng-valid.ng-dirty&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='1ae7f5b0-e3bf-4873-99d8-3ff4792f7ca0' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='div("col-sm-8[5]").xy(0.10, 0.44 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[3]/div").xy(0.10, 0.44 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div[3]/div&apos;).xy(0.10, 0.44 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"1234"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='2695f04b-3700-40db-ad6f-80cd71d713ef' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='textbox("aapa-dxp-input form-control ng-dirty ng-untouched ng-valid")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[3]/div/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div[3]/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-3 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]/input[@class=&apos;form-control aapa-dxp-input ng-untouched ng-valid ng-dirty&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;formcontrolname&apos;:&apos;userID&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-3 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"] &gt; input[class="form-control aapa-dxp-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.row.no-gutters.static-primary-details &gt; .col-md-3.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8 &gt; .form-control.aapa-dxp-input.ng-untouched.ng-valid.ng-dirty&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f660bb4a-badb-4977-bfb9-2020ed27d3bd' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='div("col-sm-8[6]").xy(0.11, 0.37 )' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[4]/div").xy(0.11, 0.37 )' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div[4]/div&apos;).xy(0.11, 0.37 )' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='setValue' value='"1234"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='165a1b6a-2ecc-48ce-b8dd-962f84f09894' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='textbox("aapa-dxp-input form-control ng-dirty ng-untouched ng-valid")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[2]/div[4]/div/input")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control aapa-dxp-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div[2]/div[4]/div/input&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;row no-gutters static-primary-details&apos;]/div[@class=&apos;col-md-3 pl-3 pr-3 static-column&apos;]/div[@class=&apos;form-group row&apos;]/div[@class=&apos;col-sm-8&apos;]/input[@class=&apos;form-control aapa-dxp-input ng-untouched ng-valid ng-dirty&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='textbox({&apos;formcontrolname&apos;:&apos;userPW&apos;})' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="row no-gutters static-primary-details"] &gt; div[class="col-md-3 pl-3 pr-3 static-column"] &gt; div[class="form-group row"] &gt; div[class="col-sm-8"] &gt; input[class="form-control aapa-dxp-input ng-untouched ng-valid ng-dirty"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.row.no-gutters.static-primary-details &gt; .col-md-3.pl-3.pr-3.static-column &gt; .form-group.row &gt; .col-sm-8 &gt; .form-control.aapa-dxp-input.ng-untouched.ng-valid.ng-dirty&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='799202f0-da90-4e78-868d-f493ff183c1a' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='span("custom-control-label[6]")' selected='true' fallback='true'></accessor>
+        <accessor type='Text' value='span("Order From Primary")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[1]/div[1]/div[10]/div/label/span")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()=" Order From Primary "]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div/div/div[10]/div/label/span&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='60d7f40c-01a5-4379-93ad-94249fa29b1f' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='button("aapa-dxp-button btn btn-primary")' selected='true' fallback='true'></accessor>
+        <accessor type='Text' value='button("Save")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-4&apos;]/app-primary-detail-form/form/div[2]/div[2]/button")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathText' value='byXPath(&apos;//*[text()=" Save "]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/p-tabview/div/div[2]/p-tabpanel/div/app-primary-detail-form/form/div[2]/div[2]/button&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-4&apos;)/app-primary-detail-form[1]/form[@class=&apos;ng-dirty ng-valid ng-touched&apos;]/div[@class=&apos;form-group row ml-4 mr-0 pt-2&apos;]/div[@class=&apos;ml-2 col-form-label&apos;]/button[@class=&apos;btn btn-primary aapa-dxp-button&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;form[class="ng-dirty ng-valid ng-touched"] &gt; div[class="form-group row ml-4 mr-0 pt-2"] &gt; div[class="ml-2 col-form-label"] &gt; button[class="btn btn-primary aapa-dxp-button"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.ng-dirty.ng-valid.ng-touched &gt; .form-group.row.ml-4.mr-0.pt-2 &gt; .ml-2.col-form-label &gt; .btn.btn-primary.aapa-dxp-button&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='eb8515de-5bd2-42da-a90e-c1c3c21f909c' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='italic(0, _in(button({&apos;title&apos;:&apos;Move Up&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='italic("mdi mdi-arrow-up")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-1&apos;]/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[1]/i")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="mdi mdi-arrow-up"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button/i&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-1&apos;)/app-primary-tab[1]/app-primary-detail-table[1]/lib-ptablewithcustomactions[1]/div[@class=&apos;arrow-icon&apos;]/button[@class=&apos;ui-button-secondary aapa-dxp-button&apos;]/i[@class=&apos;mdi mdi-arrow-up&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="arrow-icon"] &gt; button[class="ui-button-secondary aapa-dxp-button"] &gt; i[class="mdi mdi-arrow-up"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.arrow-icon &gt; .ui-button-secondary.aapa-dxp-button &gt; .mdi.mdi-arrow-up&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ffb8e90f-db12-4bda-b02f-9c3d652ffbbd' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='italic(0, _in(button({&apos;title&apos;:&apos;Move Down&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='italic("mdi mdi-arrow-down")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-1&apos;]/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[2]/i")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="mdi mdi-arrow-down"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[2]/i&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-1&apos;)/app-primary-tab[1]/app-primary-detail-table[1]/lib-ptablewithcustomactions[1]/div[@class=&apos;arrow-icon&apos;]/button[@class=&apos;ui-button-secondary aapa-dxp-button&apos;]/i[@class=&apos;mdi mdi-arrow-down&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="arrow-icon"] &gt; button[class="ui-button-secondary aapa-dxp-button"] &gt; i[class="mdi mdi-arrow-down"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.arrow-icon &gt; .ui-button-secondary.aapa-dxp-button &gt; .mdi.mdi-arrow-down&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9ee90f00-a2ed-46ad-ae06-723b6c3b2457' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='italic(0, _in(button({&apos;title&apos;:&apos;Delete&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='italic("mdi mdi-trash-can-outline")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-1&apos;]/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[5]/i")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="mdi mdi-trash-can-outline"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[5]/i&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-1&apos;)/app-primary-tab[1]/app-primary-detail-table[1]/lib-ptablewithcustomactions[1]/div[@class=&apos;arrow-icon&apos;]/button[@class=&apos;ui-button-secondary aapa-dxp-angle aapa-dxp-button&apos;]/i[@class=&apos;mdi mdi-trash-can-outline&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="arrow-icon"] &gt; button[class="ui-button-secondary aapa-dxp-angle aapa-dxp-button"] &gt; i[class="mdi mdi-trash-can-outline"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.arrow-icon &gt; .ui-button-secondary.aapa-dxp-angle.aapa-dxp-button &gt; .mdi.mdi-trash-can-outline&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='fbd7047a-abf4-4029-af95-1fddbf33977f' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='span("ng-tns-c67-21 p-dialog-header-close-icon pi pi-times")' selected='true' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath(&apos;//div[17]/div/div[2]/div/button/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="p-dialog-header-close-icon ng-tns-c67-21 pi pi-times"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[17]/div/div[2]/div/button/span&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("/html[@class=&apos;ltr yui3-js-enabled&apos;]/body[@class=&apos;other has-control-menu controls-hidden yui3-skin-sam signed-in private-page organization-site dark p-overflow-hidden&apos;]/div[@class=&apos;ng-tns-c67-21 p-dialog-mask p-component-overlay p-component-overlay-enter p-dialog-mask-scrollblocker ng-star-inserted&apos;]/div[@class=&apos;p-element ng-trigger ng-trigger-animation ng-tns-c67-21 custom-alert-cls p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted&apos;]/div[@class=&apos;p-dialog-header ng-tns-c67-21 ng-star-inserted&apos;]/div[@class=&apos;p-dialog-header-icons ng-tns-c67-21&apos;]/button[@class=&apos;p-ripple p-element ng-tns-c67-21 p-dialog-header-icon p-dialog-header-close p-link ng-star-inserted&apos;]/span[@class=&apos;p-dialog-header-close-icon ng-tns-c67-21 pi pi-times&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="p-element ng-trigger ng-trigger-animation ng-tns-c67-21 custom-alert-cls p-dialog p-component p-dialog-draggable p-dialog-resizable ng-star-inserted"] &gt; div[class="p-dialog-header ng-tns-c67-21 ng-star-inserted"] &gt; div[class="p-dialog-header-icons ng-tns-c67-21"] &gt; button[class="p-ripple p-element ng-tns-c67-21 p-dialog-header-icon p-dialog-header-close p-link ng-star-inserted"] &gt; span[class="p-dialog-header-close-icon ng-tns-c67-21 pi pi-times"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.p-element.ng-trigger.ng-trigger-animation.ng-tns-c67-21.custom-alert-cls.p-dialog.p-component.p-dialog-draggable.p-dialog-resizable.ng-star-inserted &gt; .p-dialog-header.ng-tns-c67-21.ng-star-inserted &gt; .p-dialog-header-icons.ng-tns-c67-21 &gt; .p-ripple.p-element.ng-tns-c67-21.p-dialog-header-icon.p-dialog-header-close.p-link.ng-star-inserted &gt; .p-dialog-header-close-icon.ng-tns-c67-21.pi.pi-times&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d719bbf7-c3e7-4547-8c7b-e01a15843b84' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='AttrClass' value='cell("aapa-dxp-table-body-data ng-star-inserted[42]")' selected='true' fallback='true'></accessor>
+        <accessor type='Text' value='cell("Store 6")' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div/p-table/div/div/table/tbody/tr[6]/td[3]&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='903cd867-88ba-4235-aa4e-8ced3a167631' uiType='base'>
+      <dialect type='sahi'>
+        <accessor type='Parent' value='italic(0, _in(button({&apos;title&apos;:&apos;Move Down&apos;})))' selected='true' fallback='true'></accessor>
+        <accessor type='AttrClass' value='italic("mdi mdi-arrow-down")' selected='false' fallback='true'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;p-tabpanel-1&apos;]/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[2]/i")' selected='false' fallback='true'></accessor>
+        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="mdi mdi-arrow-down"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[5]/div[2]/section/div/div/div/div/div[3]/section/div/div[2]/div/div/div/app-mpsetup/p-tabview/div/div[2]/p-tabpanel[2]/div/app-primary-tab/app-primary-detail-table/lib-ptablewithcustomactions/div[2]/button[2]/i&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;p-tabpanel-1&apos;)/app-primary-tab[1]/app-primary-detail-table[1]/lib-ptablewithcustomactions[1]/div[@class=&apos;arrow-icon&apos;]/button[@class=&apos;ui-button-secondary aapa-dxp-button&apos;]/i[@class=&apos;mdi mdi-arrow-down&apos;]")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;div[class="arrow-icon"] &gt; button[class="ui-button-secondary aapa-dxp-button"] &gt; i[class="mdi mdi-arrow-down"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;.arrow-icon &gt; .ui-button-secondary.aapa-dxp-button &gt; .mdi.mdi-arrow-down&apos;)' selected='false' fallback='true'></accessor>
+      </dialect>
+    </step>
   </testcase>
